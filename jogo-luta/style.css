@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 1024px;
+    height: 576px;
+   
+   
+} 
+
+.container{
+    position: relative;
+    
+} 
+
+.smaller-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.player-h{
+    background-color: darkblue;
+    width: 30px;
+    height: 30px;
+} 
+
+.timer{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin-left: 34px;
+} 
+
+canvas{
+    width: 1024px;
+    height: 576px;
+}
